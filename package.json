@@ -1,0 +1,20 @@
+{
+  "name": "portfoli",
+  "version": "1.0.0",
+  "description": "A responsive, dependency-free portfolio using the supplied portrait. Open `dist/index.html` or serve the `dist` directory with any static web server.",
+  "homepage": "https://github.com/pietheking/Myportfolio#readme",
+  "bugs": {
+    "url": "https://github.com/pietheking/Myportfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietheking/Myportfolio.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
