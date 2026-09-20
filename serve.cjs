@@ -23,6 +23,7 @@ http
         {
           ".html": "text/html; charset=utf-8",
           ".css": "text/css",
+          ".js": "text/javascript; charset=utf-8",
           ".png": "image/png",
         }[path.extname(file)] || "application/octet-stream",
       );

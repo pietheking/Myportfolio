@@ -1,8 +1,21 @@
 # Developer portfolio
 
-A responsive, dependency-free portfolio using the supplied portrait. Open `dist/index.html` or serve the `dist` directory with any static web server.
+A local, dependency-free portfolio featuring Orbit and the language app. The two project previews use the supplied screenshots and link to the real apps.
 
-Edit the introduction and profile in `dist/index.html`. The three projects are explicitly labeled concepts; replace these with your real work before using the portfolio professionally. Update the page title and description with your name. Styling lives in `dist/style.css`.
+## Run locally
 
-Navigation uses section links, and each project has a keyboard-accessible expandable description. No personal contact details or professional achievements have been invented.
-# Myportfolio
+With Node.js installed, run `npm start` from this folder and open `http://127.0.0.1:4173`. You can also open `dist/index.html` directly.
+
+## Edit
+
+- `dist/index.html`: content, accessible project links, and layout.
+- `dist/portfolio.css`: responsive design, hover effects, and animations.
+- `dist/portfolio.js`: project link configuration and motion controls.
+- `dist/projects.js`: app destinations; update matching HTML links too for visitors without JavaScript.
+- `dist/assets/`: the two supplied app screenshots.
+
+The motion toggle pauses animation and remembers the preference where browser storage is available. System reduced-motion preferences are respected. Links open in a new tab; only Orbit and the language app are external project destinations.
+
+The screenshots are supplied snapshots, not live embeds. The language screenshot includes a saved-translations warning present in the original capture.
+
+Changes are local. No publishing is configured or performed by the preview server.
